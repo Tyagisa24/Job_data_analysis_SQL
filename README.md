@@ -47,7 +47,7 @@ ORDER BY
 LIMIT 10
 ```
 
-![Top Paying Jobs](assets\1_Query.png)
+![Top Paying Jobs](assets/1_Query.png)
 *Top 10 Paying Jobs for Data Analyst.Visualised bt AI
 
 
@@ -87,7 +87,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
-![Top Skills For Data Analyst Jobs](assets\2_Query.png)
+![Top Skills For Data Analyst Jobs](assets/2_Query.png)
 *Visualised bt AI
 
 This bar chart reveals the most frequently required skills in high-paying data analyst positions. SQL dominates with 8 mentions, followed closely by Python and Tableau with 7 mentions each, emphasizing the importance of these foundational skills for premium roles.
@@ -119,7 +119,7 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-![Most In-Demand Skills For Data Analysts](assets\3_QUery.png)
+![Most In-Demand Skills For Data Analysts](assets/3_QUery.png)
 *Visualised bt AI
 
 The donut chart provides a percentage breakdown of skill demand across all data analyst positions. SQL and Python each represent about 26% of skill requirements, while Tableau matches this demand, showing the critical trinity of data analyst skills.
@@ -151,7 +151,7 @@ ORDER BY
 LIMIT 25
 ```
 
-![Top Paying Skills For Data Analysts](assets\4_Query.png)
+![Top Paying Skills For Data Analysts](assets/4_Query.png)
 *Visualised bt AI
 
 This horizontal bar chart showcases the highest-paying individual skills for data analysts. Specialized skills like SVN ($400,000), Solidity ($179,000), and emerging technologies command significant salary premiums, highlighting the value of niche technical expertise.
@@ -214,7 +214,7 @@ ORDER BY
 LIMIT 25
 ```
 
-![Demand Vs. Salary Analysis](assets\5_Query.png)
+![Demand Vs. Salary Analysis](assets/5_Query.png)
 *Visualised bt AI
 
 The scatter plot reveals the sweet spot between demand and salary for various skills. Skills positioned in the upper-right quadrant (high demand, high salary) like Azure and AWS represent optimal learning investments, while SQL shows massive demand with solid compensation.
